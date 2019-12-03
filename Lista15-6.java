@@ -12,13 +12,12 @@ public class Ex6 {
 		A[i]=in.nextInt();
 	}
 
-	for(int i=0;i<A.length;) {
+	for(int i=0;i<A.length;i++) {
 		aux=2*2;
 		f++;
 
 		if(f==A[i]) {
 			System.out.println(" o fatorial da posição " +(i+1) + " = " +A[i]);
-			i++;
 		}
 
 	}
